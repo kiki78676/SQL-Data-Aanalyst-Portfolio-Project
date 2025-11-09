@@ -6,25 +6,15 @@ It showcases how SQL can be used to explore, segment, and visualize business ins
 ---
 
 ## 📂 Repository Structure  
-SQL-Data-Analyst-Portfolio-Project/
-│
-├── 📁 csv_files/
-│     ├── gold.dim_customers.csv
-│     ├── gold.dim_products.csv
-│     ├── gold.fact_sales.csv
-│     ├── report_customers.csv
-│     └── report_products.csv
-│
-├── 📁 scripts/
-│     ├── trends_over_time.sql
-│     ├── cumulative_analysis.sql
-│     ├── performance_analysis.sql
-│     ├── segmentation_analysis.sql
-│     ├── product_lifecycle_analysis.sql
-│     └── customer_reporting.sql
-│
-├── LICENSE
-└── README.md
+The csv_files folder contains all raw and processed datasets used for analysis and reporting.
+
+The scripts folder includes all SQL scripts that perform trend, cumulative, performance, and segmentation analysis.
+
+Each SQL script connects to the CSV data, performs calculations or transformations, and generates summarized reports.
+
+The outputs from these queries feed into the report views (report_customers and report_products) for visualization or export.
+
+The repository structure ensures clear separation between data, queries, and documentation for easier maintenance and scalability.
 ---
 
 ## 📊 Key Analyses  
