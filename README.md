@@ -7,28 +7,6 @@ It showcases how SQL can be used to explore, segment, and visualize business ins
 
 ## 📂 Repository Structure  
 
-SQL-Data-Analyst-Portfolio-Project/
-│
-├── 📁 csv_files/ → Raw and processed CSV data used in analysis
-│ ├── gold.dim_customers.csv
-│ ├── gold.dim_products.csv
-│ ├── gold.fact_sales.csv
-│ ├── report_customers.csv
-│ └── report_products.csv
-│
-├── 📁 scripts/ → SQL scripts for analysis and reporting
-│ ├── trends_over_time.sql
-│ ├── cumulative_analysis.sql
-│ ├── performance_analysis.sql
-│ ├── segmentation_analysis.sql
-│ ├── product_lifecycle_analysis.sql
-│ └── customer_reporting.sql
-│
-├── LICENSE
-└── README.md
-
-yaml
-Copy code
 
 ---
 
